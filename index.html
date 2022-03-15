@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar nav-position">
+        <a href="#section-1" class="my-name"><i>JEFF</i></a>
+        <a href="#section-1" class="navbar-link">About</a>
+        <a href="#section-2" class="navbar-link">Skills</a>
+        <a href="#section-3" class="navbar-link">Portfolio</a>
+        <a href="#section-4" class="navbar-link">Contact</a>
+      </nav>
+
+      <!-- End of Navbar -->
+
+      <!-- Section 1 -->
+      <section class="section-1" id="section-1">
+        <h1 class="section-1-heading">Web Developer</h1>
+
+        <p class="info">
+          “遇到難題不要先說不可能” <br />
+          帶著這樣的信念一腳踏進網站開發的世界，<br />
+          讓我在面對挑戰時有更多的能量。<br />
+          <br />
+          相信與人合作時，誠摯的溝通才是增加效率的長遠之計，<br />
+          因此當理解不夠清楚時，不囫圇吞棗、隨意帶過。<br />
+          <br />
+          你好，我是Jeff
+        </p>
+
+        <h3 class="person-name">Jeff Lin</h3>
+
+        <!-- <a href="#section-3" class="section-1-btn">Projects</a> -->
+      </section>
+      <!-- End of Section 1 -->
+
+      <!-- Section 2 -->
+      <section class="section-2" id="section-2">
+        <h1 class="section-2-heading">Skills</h1>
+        <div class="skills">
+          <div class="skills-list">
+            <u class="u">HTML5, CSS3, Javascript, RWD</u><br />
+            使用HTML5,CSS3,Javascript開發網站，響應式的網站設計
+          </div>
+          <div class="skills-list">
+            <u class="u">React.js</u><br />
+            使用React框架開發
+          </div>
+          <div class="skills-list">
+            <u class="u">NodeJS, Express</u><br />
+            使用NodeJS並在Express框架下開發伺服器端
+          </div>
+          <div class="skills-list">
+            <u class="u">Git, Github, Sell Script</u><br />
+            Git, Github, Sell Script 基本操作
+          </div>
+          <div class="skills-list">
+            <u class="u">MySQL, MongoDB </u><br />
+            操作關聯式資料庫MySQL以及操作非關聯式資料庫MongoDB，使用MongoDB
+            Atlas建構雲端資料庫並使用Mongoose做串連
+          </div>
+          <div class="skills-list">
+            <u class="u">串接第三方API、建構RESTful API</u><br />
+            Open Authentication串接、後端API接口設計
+          </div>
+        </div>
+      </section>
+      <!-- End of Section 2 -->
+
+      <!-- Section 3 -->
+      <section class="section-3" id="section-3">
+        <h1 class="section-heading section-3-heading">Portfolio</h1>
+        <div class="portfolio">
+          <div class="portfolio1">
+            <a href="" target="blank"
+              ><img
+                class="p"
+                src="images/happyshop.png"
+                alt="my portfolio"
+                width="500"
+                height="300"
+            /></a>
+          </div>
+          <div class="portfolio2">
+            <a href="" target="blank"
+              ><img
+                class="p"
+                src="images/fetchphoto.png"
+                alt="my portfolio"
+                width="500"
+                height="300"
+            /></a>
+          </div>
+        </div>
+        <a href="https://github.com/Jefflinxx" target="blank" class="github"
+          >Github</a
+        >
+      </section>
+      <!-- End of Section 3 -->
+
+      <!-- Section 4 -->
+      <section class="section-4" id="section-4">
+        <h1 class="section-4-heading">Contact Me</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button
+            type="submit"
+            value="Submit"
+            class="contact-form-btn"
+            onclick="alert('僅供展示')"
+          >
+            submit
+          </button>
+        </form>
+      </section>
+      <!-- End of Section 4 -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
